@@ -293,6 +293,24 @@
           "type": "boolean",
           "description": "Any legal , documentation or process issues outstanding"
         },
+        "escortRequirements": {
+          "description": "Which escort types are required for this movement",
+          "properties": {
+            "escortRequired": {
+              "type": "boolean",
+              "description": "Indicates if an escort is required"
+            },
+            "medicRequired": {
+              "type": "boolean",
+              "description": "Indicates if a medic is required"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "escortRequired",
+            "medicRequired"
+          ]
+        },
         "medicalRisk": {
           "enum": [
             "Yes",

@@ -355,7 +355,8 @@
         "ceprReference",
         "firstName",
         "dateOfBirth",
-        "gender"
+        "gender",
+        "escortRequirements"
       ]
     },
     "religion": {
